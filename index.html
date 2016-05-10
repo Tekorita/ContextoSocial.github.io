@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contexto Social</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <link rel="stylesheet" href="sass/bootstrap.css"> -->
+	<link rel="stylesheet" href="sass/materialize.css">
+	<link rel="stylesheet" href="sass/estilosPersonal.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+</head>
+<body>
+	<header>
+		<nav>
+    		<div class="nav-wrapper z-depth-1 cyan accent-4">
+    			<div class="container">
+      			<a href="#!" class="brand-logo">Logo</a>
+      			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+  				<ul class="right hide-on-med-and-down">
+  					<li><a href="#" class= "waves-effect waves-orange">Inicio</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Investigacion</a></li>
+			        <li><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown1">Relax</a>
+						<ul id="dropdown1" class="dropdown-content">
+							<li><a href="#">Noticias</a></li>
+							<li><a href="#">Entrevistas</a></li>
+							<li><a href="#">Cultura</a></li>
+							<li><a href="#">Musica</a></li>
+							<li><a href="#">Agenda</a></li>
+						</ul>
+			        </li>
+			        <li><a href="#" class= "waves-effect waves-orange">Rostros de la crisis</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Galería</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Articulos de Opinion</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Daniela Moros</a></li>
+			    </ul>
+  				<ul class="side-nav" id="mobile-demo">
+			        <li><a href="#" class= "waves-effect waves-orange">Inicio</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Investigacion</a></li>
+			        <li class="no-padding">
+			        	<ul class="collapsible collapsible-accordion">
+			        		<li>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange">Relax</a>
+								<div class="collapsible-body" style>
+									<ul>
+										<li><a href="#">Noticias</a></li>
+										<li><a href="#">Entrevistas</a></li>
+										<li><a href="#">Cultura</a></li>
+										<li><a href="#">Musica</a></li>
+										<li><a href="#">Agenda</a></li>
+									</ul>
+								</div>
+			        		</li>
+			        	</ul>
+			        </li>
+			        <li><a href="#" class= "waves-effect waves-orange">Investigacion</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Rostros de la crisis</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Galería</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Articulos de Opinion</a></li>
+			        <li><a href="#" class= "waves-effect waves-orange">Daniela Moros</a></li>
+			    </ul>
+			    </div>
+
+			</div>
+		</nav>
+	</header>
+    
+
+	<script src ="js/jquery.min.js"></script>
+	<script src ="js/bin/materialize.min.js"></script>	
+	<script>
+		// Inicializamos el navbar
+		$(".button-collapse").sideNav();
+		// Inicializamos el dropdown
+		$('.dropdown-button').dropdown({
+		    inDuration: 300,
+		    outDuration: 300,
+		    constrain_width: true, // Does not change width of dropdown to that of the activator
+		    hover: true, // Activate on hover
+		    gutter: 0, // Spacing from edge
+		    belowOrigin: false, // Displays dropdown below the button
+		    alignment: 'left' // Displays dropdown with edge aligned to the left of button
+		    }
+		);
+	</script>
+</body>
+</html>
