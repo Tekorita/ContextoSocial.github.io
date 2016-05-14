@@ -19,6 +19,18 @@ aside {
 	margin: 0;
 	padding: 0;
 }*/
+.contenedor-card-padre {
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:flex-start;
+}
+
+.contenedor-card {
+	flex-grow:1;
+	width: 250px;
+	margin-right: 1%;
+}
 
 .panel-header {
 	margin: auto;
@@ -32,3 +44,28 @@ aside {
 ul li a:hover {
 	background: #ffb74d;
 }*/
+
+@media screen and (max-width: 992px){
+
+	.contenedor-card-padre {
+		flex-direction:row;
+		flex:0;
+	}
+
+	.contenedor-card-padre .contenedor-card {
+		flex-grow:1;
+	}
+}
+
+
+@media screen and (max-width: 293px){
+
+	.contenedor-card-padre {
+		flex-direction:column;
+
+	}
+	
+	.contenedor-card-padre .contenedor-card {
+		flex-grow:1;
+	}
+}

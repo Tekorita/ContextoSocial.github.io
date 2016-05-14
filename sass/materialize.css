@@ -3323,7 +3323,8 @@ small {
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
   transition: box-shadow .25s;
-  border-radius: 2px; }
+  border-radius: 2px;
+  display: block; }
   .card .card-title {
     font-size: 24px;
     font-weight: 300; }
@@ -3343,6 +3344,7 @@ small {
       left: 0;
       right: 0; }
   .card.small {
+    width: 300px;
     height: 300px; }
   .card.medium {
     height: 400px; }
