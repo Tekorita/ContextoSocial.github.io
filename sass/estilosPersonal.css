@@ -3,6 +3,12 @@ h3 {
 	font-weight: bold;
 }
 
+h5 {
+	/*font-weight: bold;*/
+	display: inline-block;
+	line-height: 0%;
+}
+
 .fondoTextoSlider {
 	background: rgba(0,0,0,.6);
 	border-radius: 10px;
