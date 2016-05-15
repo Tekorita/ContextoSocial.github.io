@@ -2,23 +2,34 @@
 	box-sizing: border-box;
 }
 
-h3 {
+h3, h5, h6 {
 	color: #00897b;
 	font-weight: bold;
 }
 
-h6 {
-	font-weight: bold;
+.text-white {
+	color: #fff;
 }
+
 
 .h5-articles {
 	/*font-weight: bold;*/
+	color: #fff;
 	display: inline-block;
-	line-height: 0%;
+}
+
+.icon-white {
+	color: #fff;
 }
 
 .contentTituloArticle {
-	height: 40px;
+	height: 120px;
+	line-height: 20px;
+}
+
+.contentTituloArticle p {
+	font-size: 15px;
+
 }
 
 .fondoTextoSlider {
