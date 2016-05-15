@@ -1,5 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
 h3 {
 	color: #00897b;
+	font-weight: bold;
+}
+
+h6 {
 	font-weight: bold;
 }
 
@@ -9,10 +17,20 @@ h3 {
 	line-height: 0%;
 }
 
+.contentTituloArticle {
+	height: 40px;
+}
+
 .fondoTextoSlider {
 	background: rgba(0,0,0,.6);
 	border-radius: 10px;
 	padding: 10px;
+}
+
+.border-bn {
+
+	border-bottom: 3px;
+	border-color: yellow;
 }
 /*
 aside {
