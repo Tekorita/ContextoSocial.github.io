@@ -15,11 +15,82 @@ h3, h5, h6 {
 	color: #fff;
 }
 
-
 .h5-articles {
 	/*font-weight: bold;*/
 	color: #fff;
 	display: inline-block;
+}
+
+.margin-nav {
+	margin-bottom: 25px;
+}
+
+.border-nav-1 {
+	border-bottom: 5px solid #000000;
+	line-height: 58px;
+}
+
+.border-nav-2 {
+	border-bottom: 5px solid #ffca28;
+	line-height: 58px;
+}
+
+.border-nav-3 {
+	border-bottom: 5px solid #00796b;
+	line-height: 58px;
+}
+
+.border-nav-4 {
+	border-bottom: 5px solid #002B71;
+	line-height: 58px;
+}
+
+.border-nav-5 {
+	border-bottom: 5px solid #ff7043;
+	line-height: 58px;
+}
+
+.border-nav-6 {
+	border-bottom: 5px solid #7cb342;
+	line-height: 58px;
+}
+
+.border-nav-7 {
+	border-bottom: 5px solid #9575CD;
+	line-height: 58px;
+}
+
+.border-nav-movil-1 {
+	border-left: 5px solid #000000;
+}
+
+.border-nav-movil-2 {
+	border-left: 5px solid #ffca28;
+}
+
+.border-nav-movil-3 {
+	border-left: 5px solid #00796b;
+}
+
+.border-nav-movil-4 {
+	border-left: 5px solid #002B71;
+}
+
+.border-nav-movil-5 {
+	border-left: 5px solid #ff7043;
+}
+
+.border-nav-movil-6 {
+	border-left: 5px solid #7cb342;
+}
+
+.border-nav-movil-7 {
+	border-left: 5px solid #9575CD;
+}
+
+.border-nav-movil-1:hover, .border-nav-movil-2:hover, .border-nav-movil-3:hover, .border-nav-movil-4:hover, .border-nav-movil-5:hover, .border-nav-movil-6:hover, .border-nav-movil-7:hover {
+	background: #ffbb8e;
+	color: #fff;
 }
 
 .icon-white {
@@ -47,11 +118,7 @@ h3, h5, h6 {
 	border-bottom: 3px;
 	border-color: yellow;
 }
-/*
-aside {
-	margin: 0;
-	padding: 0;
-}*/
+
 .contenedor-card-padre {
 	display: flex;
 	flex-wrap:wrap;
@@ -73,10 +140,6 @@ aside {
 	color: #fff;
 	font-weight: bold;
 }
-/*
-ul li a:hover {
-	background: #ffb74d;
-}*/
 
 @media screen and (max-width: 992px){
 

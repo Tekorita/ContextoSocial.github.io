@@ -12,28 +12,28 @@
 </head>
 <body>
 	<header>
-		<div class="navbar-fixed">
+		<div class="navbar-fixed margin-nav">
 		<nav>
-    		<div class="nav-wrapper z-depth-1 cyan accent-4 hoverable">
+    		<div class="nav-wrapper z-depth-1 cyan accent-4 hoverable border-nav-0">
     			<div class="container">
       			<a href="#!" class="brand-logo">Logo</a>
       			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
   				<ul class="right hide-on-med-and-down">
-  					<li class="border-bn"><a href="#" class= "waves-effect waves-orange">Inicio</a></li>
-			        <li><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown1">En contexto</a>
+  					<li class="border-nav-1 active"><a href="#" class= "waves-effect waves-orange"><strong>Inicio</strong></a></li>
+			        <li class="border-nav-2"><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown1"><strong>En Contexto</strong></a>
 			        	<ul id="dropdown1" class="dropdown-content">
 							<li><a href="#">Noticias</a></li>
 							<li><a href="#">Reportajes</a></li>
 							<li><a href="#">Crónicas</a></li>							
 						</ul>
 					</li>
-			        <li><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown2">Protagonistas</a>
+			        <li class="border-nav-3"><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown2"><strong>Protagonistas</strong></a>
 						<ul id="dropdown2" class="dropdown-content">
 							<li><a href="#">Entrevistas</a></li>
 						</ul>
 			        </li>
-			        <li><a href="#" class= "waves-effect waves-orange">Artículos de opinión</a></li>
-			        <li><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown3">Relax</a>
+			        <li class="border-nav-4"><a href="#" class= "waves-effect waves-orange"><strong>Artículos de opinión</strong></a></li>
+			        <li class="border-nav-5"><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown3"><strong>Relax</strong></a>
 			        	<ul id="dropdown3" class="dropdown-content">
 							<li><a href="#">Personajes</a></li>
 							<li><a href="#">Artes y Compases</a></li>
@@ -42,21 +42,22 @@
 							<li><a href="#">Astronomía</a></li>
 						</ul>
 					</li>
-			        <li><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown4">Galería</a>
+			        <li class="border-nav-6"><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown4"><strong>Galería</strong></a>
 			        	<ul id="dropdown4" class="dropdown-content">
 							<li><a href="#">Fotografías</a></li>
 							<li><a href="#">Colecciones</a></li>
 							<li><a href="#">Fotogalerías</a></li>
 						</ul>
 					</li>
-			        <li><a href="#" class= "waves-effect waves-orange">Proyectos</a></li>
+			        <li class="border-nav-7"><a href="#" class= "waves-effect waves-orange"><strong>Proyectos</strong></a></li>
 			    </ul>
   				<ul class="side-nav" id="mobile-demo">
-			        <li><a href="#" class= "waves-effect waves-orange">Inicio</a></li>
-			        <li class="no-padding">
+			        <li class="border-nav-movil-1"><a href="#" class= "waves-effect waves-orange"><strong>Inicio</strong></a></li>
+			        <li class="divider"></li>
+			        <li class="no-padding border-nav-movil-2">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange">En Contexto</a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>En contexto</strong><i class="small material-icons right">keyboard_arrow_up</i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Noticias</a></li>
@@ -67,10 +68,11 @@
 			        		</li>
 			        	</ul>
 			        </li>
-			        <li class="no-padding">
+			        <li class="divider"></li>
+			        <li class="no-padding border-nav-movil-3">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange">Protagonistas</a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Protagonistas</strong><i class="small material-icons right">keyboard_arrow_up</i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Entrevistas</a></li>
@@ -79,11 +81,13 @@
 			        		</li>
 			        	</ul>
 			        </li>
-			        <li><a href="#" class= "waves-effect waves-orange">Artículos de opinión</a></li>
-			        <li class="no-padding">
+			        <li class="divider"></li>
+			        <li class="border-nav-movil-4"><a href="#" class= "waves-effect waves-orange"><strong>Artículos de opinión</strong><i class="small material-icons right">keyboard_arrow_up</i></a></li>
+			        <li class="divider"></li>
+			        <li class="no-padding border-nav-movil-5">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange">Relax</a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Relax</strong><i class="small material-icons right">keyboard_arrow_up</i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Personajes</a></li>
@@ -96,10 +100,11 @@
 			        		</li>
 			        	</ul>
 			        </li>
-			        <li class="no-padding">
+			        <li class="divider"></li>
+			        <li class="no-padding border-nav-movil-6">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange">Galería</a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Galería</strong><i class="small material-icons right">keyboard_arrow_up</i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Fotografías</a></li>
@@ -110,7 +115,9 @@
 			        		</li>
 			        	</ul>
 			        </li>
-			        <li><a href="#" class= "waves-effect waves-orange">Proyectos</a></li>
+			        <li class="divider"></li>
+			        <li class="border-nav-movil-7"><a href="#" class= "waves-effect waves-orange"><strong>Proyectos</strong></a></li>
+			        <li class="divider"></li>
 			    </ul>
 			    </div>
 			</div>
