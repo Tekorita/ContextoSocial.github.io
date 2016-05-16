@@ -2606,7 +2606,7 @@ input[type=range] + .thumb {
     width: 85%; } }
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%; } }
+    width: 90%; } }
 .container .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem; }

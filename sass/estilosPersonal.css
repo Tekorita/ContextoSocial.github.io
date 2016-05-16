@@ -7,6 +7,10 @@ h3, h5, h6 {
 	font-weight: bold;
 }
 
+.lista:hover {
+	background: #f9b520;
+}
+
 .text-white {
 	color: #fff;
 }
