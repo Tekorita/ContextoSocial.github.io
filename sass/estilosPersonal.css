@@ -16,7 +16,6 @@ h3, h5, h6 {
 }
 
 .h5-articles {
-	/*font-weight: bold;*/
 	color: #fff;
 	display: inline-block;
 }
@@ -91,6 +90,17 @@ h3, h5, h6 {
 .border-nav-movil-1:hover, .border-nav-movil-2:hover, .border-nav-movil-3:hover, .border-nav-movil-4:hover, .border-nav-movil-5:hover, .border-nav-movil-6:hover, .border-nav-movil-7:hover {
 	background: #ffbb8e;
 	color: #fff;
+}
+
+.logo-nav {
+	width: 180px;
+}
+
+.menu-fixed {
+	position: fixed;
+	z-index: 1000;
+	top:0;
+	width: 100%;
 }
 
 .icon-white {

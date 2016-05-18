@@ -7,16 +7,23 @@
 	<!-- <link rel="stylesheet" href="sass/bootstrap.css"> -->
 	<link rel="stylesheet" href="sass/materialize.css">
 	<link rel="stylesheet" href="sass/estilosPersonal.css">
-	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-</head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	
 </head>
 <body>
 	<header>
-		<div class="navbar-fixed margin-nav">
+		
+		<div class="logo">
+			<img class ="responsive-img" src="imagenes/logo10.png" alt="">
+		</div>
+		<div class="margin-nav menu">
 		<nav>
-    		<div class="nav-wrapper z-depth-1 cyan accent-4 hoverable border-nav-0">
+    		<div class="nav-wrapper z-depth-1 cyan accent-4 hoverable">
     			<div class="container">
-      			<a href="#!" class="brand-logo">Logo</a>
+      			<a href="#!" class="brand-logo logo-nav">
+					<img class ="responsive-img" src="imagenes/logo-navv.png" id = "logo" alt="">
+      			</a>
       			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
   				<ul class="right hide-on-med-and-down">
   					<li class="border-nav-1 active"><a href="#" class= "waves-effect waves-orange"><strong>Inicio</strong></a></li>
@@ -52,12 +59,14 @@
 			        <li class="border-nav-7"><a href="#" class= "waves-effect waves-orange"><strong>Proyectos</strong></a></li>
 			    </ul>
   				<ul class="side-nav" id="mobile-demo">
+  					<img class ="responsive-img" src="imagenes/logo10.png" id = "logo" alt="">
+  					<li class="divider"></li>
 			        <li class="border-nav-movil-1"><a href="#" class= "waves-effect waves-orange"><strong>Inicio</strong></a></li>
 			        <li class="divider"></li>
 			        <li class="no-padding border-nav-movil-2">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>En contexto</strong><i class="small material-icons right">keyboard_arrow_up</i></a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>En contexto</strong><i class="small material-icons right">keyboard_arrow_down</i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Noticias</a></li>
@@ -72,7 +81,7 @@
 			        <li class="no-padding border-nav-movil-3">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Protagonistas</strong><i class="small material-icons right">keyboard_arrow_up</i></a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Protagonistas</strong><i class="small material-icons right">keyboard_arrow_down</i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Entrevistas</a></li>
@@ -82,12 +91,12 @@
 			        	</ul>
 			        </li>
 			        <li class="divider"></li>
-			        <li class="border-nav-movil-4"><a href="#" class= "waves-effect waves-orange"><strong>Artículos de opinión</strong><i class="small material-icons right">keyboard_arrow_up</i></a></li>
+			        <li class="border-nav-movil-4"><a href="#" class= "waves-effect waves-orange"><strong>Artículos de opinión</strong></a></li>
 			        <li class="divider"></li>
 			        <li class="no-padding border-nav-movil-5">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Relax</strong><i class="small material-icons right">keyboard_arrow_up</i></a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Relax</strong><i class="small material-icons right">keyboard_arrow_down</i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Personajes</a></li>
@@ -104,7 +113,7 @@
 			        <li class="no-padding border-nav-movil-6">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Galería</strong><i class="small material-icons right">keyboard_arrow_up</i></a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Galería</strong><i class="small material-icons right">keyboard_arrow_down</i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Fotografías</a></li>
@@ -119,6 +128,7 @@
 			        <li class="border-nav-movil-7"><a href="#" class= "waves-effect waves-orange"><strong>Proyectos</strong></a></li>
 			        <li class="divider"></li>
 			    </ul>
+					
 			    </div>
 			</div>
 		</nav>
@@ -377,9 +387,9 @@
 					<div class="panel-header cyan">
 						<h6 class="text-white">Desde Twitter</h6>
 					</div>
-					<!-- <a class="twitter-timeline" href="https://twitter.com/danii_moros" data-widget-id="730225015749283840">Tweets por el @danii_moros.</a>
+					<a class="twitter-timeline" href="https://twitter.com/danii_moros" data-widget-id="730225015749283840">Tweets por el @danii_moros.</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              -->
+             
 				</wigdet>
 				<wigdet>facebook</wigdet>
 			</aside>
@@ -414,25 +424,7 @@
 
 
 	<script src ="js/jquery.min.js"></script>
-	<script src ="js/bin/materialize.min.js"></script>	
-	<script>
-		// Inicializamos el navbar
-		$(".button-collapse").sideNav();
-		// Inicializamos el dropdown
-		$('.dropdown-button').dropdown({
-		    inDuration: 300,
-		    outDuration: 300,
-		    constrain_width: true, // Does not change width of dropdown to that of the activator
-		    hover: true, // Activate on hover
-		    gutter: 0, // Spacing from edge
-		    belowOrigin: true, // Displays dropdown below the button
-		    alignment: 'left' // Displays dropdown with edge aligned to the left of button
-		    }
-		);
-		// Inicializamos el slideshow
-		  $(document).ready(function(){
-		      $('.slider').slider({full_width: true});
-		    });
-	</script>
+	<script src ="js/bin/materialize.min.js"></script>
+	<script src ="js/main.js"></script>
 </body>
 </html>
