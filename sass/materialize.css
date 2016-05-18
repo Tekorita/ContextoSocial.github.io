@@ -3900,7 +3900,7 @@ a.waves-effect .waves-ripple {
   cursor: pointer;
   min-height: 3rem;
   line-height: 3rem;
-  padding: 0 1rem;
+  padding: 0 0rem;
   background-color: #fff;
   border-bottom: 1px solid #ddd; }
   .collapsible-header i {

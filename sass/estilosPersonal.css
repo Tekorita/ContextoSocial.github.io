@@ -152,8 +152,18 @@ h3, h5, h6 {
 }
 
 .container-wigdet {
-	margin-bottom: 150px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:flex-start;
+	border-bottom: 3px solid black;
+	margin-bottom: 20px;
+
 }
+
+/*.panel-videos:hover {
+	background: blue;
+}*/
 
 .font-s-19 {
 	font-size: 19px;
