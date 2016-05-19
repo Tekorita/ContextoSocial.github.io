@@ -2648,6 +2648,7 @@ input[type=range] + .thumb {
     .row .col.s3 {
       width: 25%;
       margin-left: auto;
+      padding: 0;
       left: auto;
       right: auto; }
     .row .col.s4 {
@@ -2693,6 +2694,7 @@ input[type=range] + .thumb {
     .row .col.s12 {
       width: 100%;
       margin-left: auto;
+      padding: 0;
       left: auto;
       right: auto; }
     .row .col.offset-s1 {
@@ -2796,6 +2798,7 @@ input[type=range] + .thumb {
       .row .col.m6 {
         width: 50%;
         margin-left: auto;
+        padding: 0;
         left: auto;
         right: auto; }
       .row .col.m7 {
@@ -2959,6 +2962,7 @@ input[type=range] + .thumb {
       .row .col.l12 {
         width: 100%;
         margin-left: auto;
+        padding: 0;
         left: auto;
         right: auto; }
       .row .col.offset-l1 {
@@ -4977,7 +4981,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav {
   position: fixed;
-  width: 250px;
+  width: 300px;
   left: 0;
   top: 0;
   margin: 0;

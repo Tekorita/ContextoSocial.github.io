@@ -46,4 +46,19 @@
 
 		  		});
 		  });
+
+		  //  // Funcion para el aside fixed
+
+		  // $(document).ready(function(){
+		  // 		var altura2 = $('.aside-p').offset().top;
+		  // 		// alert(altura);
+
+		  // 		$(window).on('scroll', function(){
+		  // 			if ($(window).scrollTop() > altura2 ){
+		  // 				$('.aside-p').addClass("aside-fixed");
+		  // 			}else{
+		  // 				$('.aside-p').removeClass("aside-fixed");
+		  // 			}
+		  // 		});
+		  // });
 }());
