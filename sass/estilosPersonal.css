@@ -235,6 +235,19 @@ h3, h5, h6 {
 	background-color: #fff;
 }
 
+.titulo_articulo {
+	text-align: center;
+}
+
+.subtitulo_articulo {
+	text-align: right;
+	padding-right: 30px;
+}
+
+.articulos {
+	padding: 20px 80px;
+}
+
 @media screen and (max-width: 992px){
 
 	.contenedor-card-padre {
