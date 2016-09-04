@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="sass/materialize.css">
 	<link rel="stylesheet" href="sass/estilosPersonal.css">
 	<link rel="stylesheet" href="sass/iconos.css">
-	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	 -->
+	<!-- <link rel="stylesheet" href="sass/iconos_materialize.css"> -->
 </head>
 <body>
 	<header>
@@ -23,7 +23,7 @@
       			<a href="#!" class="brand-logo logo-nav">
 					<img class ="responsive-img" src="imagenes/logo-navv.png" id = "logo" alt="">
       			</a>
-      			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="icon icon-menu"></i></a>
+      			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="icon-menu"></i></a>
   				<ul class="right hide-on-med-and-down">
   					<li class="border-nav-1 active"><a href="#" class= "waves-effect waves-orange"><strong>Inicio</strong></a></li>
 			        <li class="border-nav-2"><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown1"><strong>En Contexto</strong></a>
@@ -65,7 +65,7 @@
 			        <li class="no-padding border-nav-movil-2">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>En contexto</strong><i class="small material-icons right">keyboard_arrow_down</i></a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>En contexto</strong><i class="icon-arrow-down2 right"></i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Noticias</a></li>
@@ -80,7 +80,7 @@
 			        <li class="no-padding border-nav-movil-3">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Protagonistas</strong><i class="small material-icons right">keyboard_arrow_down</i></a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Protagonistas</strong><i class="icon-arrow-down2 right"></i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Entrevistas</a></li>
@@ -95,7 +95,7 @@
 			        <li class="no-padding border-nav-movil-5">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Relax</strong><i class="small material-icons right">keyboard_arrow_down</i></a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Relax</strong><i class="icon-arrow-down2 right"></i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Personajes</a></li>
@@ -112,7 +112,7 @@
 			        <li class="no-padding border-nav-movil-6">
 			        	<ul class="collapsible collapsible-accordion">
 			        		<li class="bold">
-			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Galería</strong><i class="small material-icons right">keyboard_arrow_down</i></a>
+			        			<a href="#" class= "collapsible-header waves-effect waves-orange"><strong>Galería</strong><i class="icon-arrow-down2 right"></i></a>
 								<div class="collapsible-body" style>
 									<ul>
 										<li><a href="#">Fotografías</a></li>
@@ -152,17 +152,17 @@
 				<div class="slider hoverable">
 				    <ul class="slides">
 				      	<li>
+				        	<img src="imagenes/slider6.jpg"> <!-- random image -->
+				        	<div class="caption center-align fondoTextoSlider">
+				          		<h3>¿Qué se logró este 1 de Septiembre?</h3>
+				          		<h5 class="light grey-text text-lighten-3">Caracas fue un desierto atípico por la cantidad de gente en sus principales avenidas y arterias viales.</h5>
+				        	</div>
+				      	</li>
+				      	<li>
 				        	<img src="imagenes/slider1.jpg"> <!-- random image -->
 				        	<div class="caption center-align fondoTextoSlider">
 				          		<h3>La viejas caras de Venezuela</h3>
 				          		<h5 class="light grey-text text-lighten-3">Adultos mayores sufren el olvido del Estado y sus familias</h5>
-				        	</div>
-				      	</li>
-				      	<li>
-				        	<img src="imagenes/slider2.jpg"> <!-- random image -->
-				        	<div class="caption left-align fondoTextoSlider">
-				          		<h3>Anuncian cierre nocturno de la autopista Caracas-La Guaira</h3>
-				          		<h5 class="light grey-text text-lighten-3">autopista Caracas-La Guaira será cerrada entre las 9:00 pm y las 2:00 am, el lunes de esta semana</h5>
 				        	</div>
 				      	</li>
 				      	<li>
@@ -419,6 +419,33 @@
 					     <a class="twitter-timeline" href="https://twitter.com/danii_moros" data-widget-id="730225015749283840">Tweets por el @danii_moros.</a>
 						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</wigdet>
+				
+				<wigdet class="col s12 m6 l12 container-wigdet z-depth-1 hoverable">
+					<div class="panel-header green accent-4">
+						<h6 class="text-white font-s-19"><i class="icon icon-bubbles"></i> Lo que dice la gente</h6>
+					</div>
+					<ul class="collection">
+					    <li class="collection-item">
+					    	<i class="icon-quotes-left"></i> Camaron que se duerme se lo lleva la corriente <i class="icon-quotes-right"></i>
+					    </li>
+					    <li class="collection-item">
+					    	<i class="icon-quotes-left"></i> Eramos poco y pario la abuela <i class="icon-quotes-right"></i>
+					    </li>
+					    <li class="collection-item">
+					    	<i class="icon-quotes-left"></i> Primero fue sabado que domingo <i class="icon-quotes-right"></i>
+					    </li>
+					    <li class="collection-item">
+					    	<i class="icon-quotes-left"></i> ¿Vistes el nuevo chinazo de maduro en cadena nacional? <i class="icon-quotes-right"></i>
+					    </li>
+					    <li class="collection-item">
+					    	<i class="icon-quotes-left"></i> Que fastidio con los bachaqueros <i class="icon-quotes-right"></i>
+					    </li>
+					    <li class="collection-item">
+					    	<i class="icon-quotes-left"></i> Los bachaqueros no merecen ser llamados venezolanos <i class="icon-quotes-right"></i>
+					    </li>
+				    </ul>
+				</wigdet>
+
 				<wigdet class="col s12 m6 l12 container-wigdet z-depth-1 hoverable">
 					<div class="panel-header red darken-4">
 						<h6 class="text-white font-s-19"><i class="icon icon-play"></i> Videos de Youtube</h6>
@@ -558,18 +585,18 @@
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">Links</h5>
 					<ul>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Linkedin</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="footer-copyright">
 			<div class="container">
-				© 2015 Copyright Text
-				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+				© 2016 Todos los derechos reservados - Contexto Social
+				<!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
 			</div>
 		</div>
 	</footer>
