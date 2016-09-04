@@ -1,4 +1,6 @@
 * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -6,6 +8,46 @@ h3, h5, h6 {
 	color: #00897b;
 	font-weight: bold;
 }
+
+.social {
+	position: fixed;
+	left: 0;
+	top: 260px;
+	z-index: 2000;
+}
+
+.social ul {
+	list-style:none;
+}
+
+.social ul li a {
+	display: inline-block;
+	color: white;
+	background: blue;
+	font-size: 20px;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.social ul li .icon-facebook {
+	background: #3b5998;
+} 
+
+.social ul li .icon-twitter {
+	background: #55acee;
+} 
+
+.social ul li .icon-instagram {
+	background: #fcaf45;
+} 
+
+.social ul li .icon-linkedin2 {
+	background: #313335;
+} 
+
+.social ul li .icon-google-plus {
+	background: #dc4e41;
+} 
 
 .size-p{
 	font-size: 20px;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Contexto Social</title>
@@ -7,7 +7,8 @@
 	<!-- <link rel="stylesheet" href="sass/bootstrap.css"> -->
 	<link rel="stylesheet" href="sass/materialize.css">
 	<link rel="stylesheet" href="sass/estilosPersonal.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+	<link rel="stylesheet" href="sass/iconos.css">
+	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	 -->
 </head>
 <body>
 	<header>
@@ -22,7 +23,7 @@
       			<a href="#!" class="brand-logo logo-nav">
 					<img class ="responsive-img" src="imagenes/logo-navv.png" id = "logo" alt="">
       			</a>
-      			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="icon icon-menu"></i></a>
   				<ul class="right hide-on-med-and-down">
   					<li class="border-nav-1 active"><a href="#" class= "waves-effect waves-orange"><strong>Inicio</strong></a></li>
 			        <li class="border-nav-2"><a href="#" class= "dropdown-button waves-effect waves-orange" data-activates="dropdown1"><strong>En Contexto</strong></a>
@@ -57,7 +58,7 @@
 			        <li class="border-nav-7"><a href="#" class= "waves-effect waves-orange"><strong>Proyectos</strong></a></li>
 			    </ul>
   				<ul class="side-nav" id="mobile-demo">
-  					<img class ="responsive-img" src="imagenes/logo10.png" id = "logo" alt="">
+  					<!-- <img class ="responsive-img" src="imagenes/logo10.png" id = "logo" alt=""> -->
   					<li class="divider"></li>
 			        <li class="border-nav-movil-1"><a href="#" class= "waves-effect waves-orange"><strong>Inicio</strong></a></li>
 			        <li class="divider"></li>
@@ -132,10 +133,21 @@
 		</nav>
 		</div>
 	</header>
+
+	
     
 	<section class="main container">
+			<div class=" col s12 social">
+				<ul>
+					<li><a href="#" class="icon-twitter"></a></li>
+					<li><a href="#" class="icon-instagram"></a></li>
+					<li><a href="#" class="icon-google-plus"></a></li>
+					<li><a href="#" class="icon-linkedin2"></a></li>
+				</ul>
+			</div>		
 		<div class="row">
 			<div class="col m12 l9">
+
 
 				<div class="slider hoverable">
 				    <ul class="slides">
@@ -178,7 +190,7 @@
 				    </div>
 				</nav>
 				<ul class="collection hoverable">
-			      	<li class="collection-item amber lighten-1"><i class="small material-icons icon-white">import_contacts</i> <h5 class="h5-articles">En Contexto</h5></li>
+			      	<li class="collection-item amber lighten-1"><h5 class="h5-articles"><i class="icon-mug"></i> En Contexto</h5></li>
 			      	<li class="collection-item">
 						<div class="contenedor-card-padre">	
 							<div class="contenedor-card">
@@ -193,15 +205,15 @@
 									      			<h6 class="size-p">Ya nadie quiere un iPhone 6s</h6>
 									      			<p>Los rumores se centran más en la llegada del iPhone 7, que se espera para el año que viene.</p><br>
 									      			<div class="divider"></div>
-									      			<p><strong>Tecnología</strong>
-									      			</p>									
+<!-- 									      			<p><strong>Tecnología</strong>
+									      			</p>	 -->								
 									      		</div>
-									      		<i class="material-icons right">keyboard_arrow_up</i>
+									      		<i class="icon-arrow-down-right2 right"></i>
 									      	</span>
 									      	<p><a href="#">Ver mas</a></p>
 									    </div>
 									    <div class="card-reveal">
-									      	<span class="card-title grey-text text-darken-4"><h5>Ya nadie quiere un iPhone 6s</h5><i class="material-icons right">close</i></span>
+									      	<span class="card-title grey-text text-darken-4"><h5>Ya nadie quiere un iPhone 6s</h5><i class="icon-cross right"></i></span>
 									      	<p>Apple ha dejado de crecer por primera vez desde el año 2003, según sus resultados trimestrales, presentados hace unas semanas, en los que se dejaba patente un descenso del 22% en sus beneficios. "Nuestro equipo lo ha hecho realmente bien este trimestre pero nos enfrentamos a condiciones macroeconómicas únicas y muy difíciles de sortear", apuntó entonces Tim Cook, presidente de la compañía.Ahora, el portal asiático de finanzas Nikkei augura otro desplome para el próximo trimestre, precisamente debido a los rumores de llegada de un iPhone 7.</p>
 									      	<p><a href="#">Ver artículo completo</a></p>
 									    </div>
@@ -219,17 +231,18 @@
 									      		<div class="contentTituloArticle">
 									      			<h6 class="size-p">La NASA anuncia el mayor descubrimiento de exoplanetas</h6>
 									      			<p>Han sido encontrados fuera del Sistema Solar gracias a los equipos del telescopio espacial Kepler.</p>
+									      			<div class="divider"></div>
 									      		</div>
-									      		<i class="material-icons right">keyboard_arrow_up</i>
+									      		<i class="icon-arrow-down-right2 right"></i>
 									      	</span>
 									      	<p><a href="#">Ver mas</a></p>
 									    </div>
 									    <div class="card-reveal">
-									      	<span class="card-title grey-text text-darken-4"><h5>La NASA anuncia el mayor descubrimiento de exoplanetas</h5><i class="material-icons right">close</i></span>
+									      	<span class="card-title grey-text text-darken-4"><h5>La NASA anuncia el mayor descubrimiento de exoplanetas</h5><i class="icon-cross right"></i></span>
 									      	<p>Los responsables del telescopio espacial Kepler, el mayor cazador de planetas fuera del Sistema Solar, han anunciado el descubrimiento de 1.284 nuevos exoplanetas, lo que dobla de una tacada el número de estos cuerpos que se conocía hasta la fecha.
 
 											“Este anuncio duplica el número de planetas confirmados por el Kepler", ha dicho Ellen Stofan, científica jefe de la NASA durante una rueda de prensa celebrada hoy. “Esto nos da esperanzas de que en algún lugar ahí afuera, en una estrella muy similar a la nuestra, podamos descubrir otra Tierra”, ha añadido.</p>
-											<p><a href="#">Ver mas</a></p>
+											<p><a href="#">Ver artículo completo</a></p>
 									    </div>
 									</div>
 								</article>
@@ -245,15 +258,16 @@
 									      		<div class="contentTituloArticle">
 									      			<h6 class="size-p">Pfizer Prohibe el uso de sus farmacos en EEUU</h6>
 									      			<p>El gigante farmacéutico Pfizer anunció este viernes restricciones a la venta de algunos de sus productos para evitar su uso en inyecciones letales.</p>
+									      			<div class="divider"></div>
 									      		</div>
-									      		<i class="material-icons right">keyboard_arrow_up</i>
+									      		<i class="icon-arrow-down-right2 right"></i>
 									      	</span>
 									      	<p><a href="#">Ver mas</a></p>
 									    </div>
 									    <div class="card-reveal">
-									      	<span class="card-title grey-text text-darken-4"><h5>Pfizer Prohibe el uso de sus farmacos en EEUU</h5><i class="material-icons right">close</i></span>
+									      	<span class="card-title grey-text text-darken-4"><h5>Pfizer Prohibe el uso de sus farmacos en EEUU</h5><i class="icon-cross right"></i></span>
 									      	<p>El gigante farmacéutico Pfizer anunció este viernes restricciones a la venta de algunos de sus productos para evitar su uso en inyecciones letales a presos condenados a muerte en Estados Unidos.<br>"Estamos restringiendo la distribución de determinados productos que han formado parte de los protocolos de ejecución de determinados estados. Pfizer se opone firmemente al uso de estos productos en inyecciones letales", expresó la compañía en un comunicado.</p>
-									      	<p><a href="#">Ver mas</a></p>
+									      	<p><a href="#">Ver artículo completo</a></p>
 									    </div>
 									</div>
 								</article>
@@ -269,15 +283,16 @@
 									      		<div class="contentTituloArticle">
 									      			<h6 class="size-p">Una 'fiesta para el cerebro' en homenaje a Stephen Hawking</h6>
 									      			<p>Presentado en Madrid el Festival Starmus, que homenajeará al astrofísico británico y reunirá a 11 premios Nobel de Física, Química, Medicina y Economía</p>
+									      			<div class="divider"></div>
 									      		</div>
-									      		<i class="material-icons right">keyboard_arrow_up</i>
+									      		<i class="icon-arrow-down-right2 right"></i>
 									      	</span>
 									      	<p><a href="#">Ver mas</a></p>
 									    </div>
 									    <div class="card-reveal">
-									      	<span class="card-title grey-text text-darken-4"><h5>Una 'fiesta para el cerebro' en homenaje a Stephen Hawking</h5><i class="material-icons right">close</i></span>
+									      	<span class="card-title grey-text text-darken-4"><h5>Una 'fiesta para el cerebro' en homenaje a Stephen Hawking</h5><i class="icon-cross right"></i></span>
 									      	<p>"Starmus es una fiesta para el cerebro, para el cuerpo y para el espíritu". Así es como la astrofísica Jill Tarter ha definido Starmus, el festival de ciencia y música que congregará a los científicos más relevantes del mundo para ensalzar la figura de Stephen Hawking en Tenerife entre el 27 de junio y el 2 de julio.Rendir tributo al astrofísico inglés será una de las principales actividades del festival de este año, según ha informado en rueda de prensa este jueves Garik Israelian, fundador del evento y colega de profesión de Hawking. "Estamos sorprendidos por el interés que él tiene en este evento. Eso significa que Starmus tiene algo", ha confesado. "No se puede engañar a once premios Nobel para que vengan".</p>
-									      	<p><a href="#">Ver mas</a></p>
+									      	<p><a href="#">Ver artículo completo</a></p>
 									    </div>
 									</div>
 								</article>
@@ -293,16 +308,16 @@
 									      		<div class="contentTituloArticle">
 									      			<h6 class="size-p">Platzi, formación para el mundo digital</h6>
 									      			<p>La 'startup' educativa fue la primera de origen latino en entrar en Y Combinator, la incubadora de moda en Silicon Valley</p>
-
+													<div class="divider"></div>
 									      		</div>
-									      		<i class="material-icons right">keyboard_arrow_up</i>
+									      		<i class="icon-arrow-down-right2 right"></i>
 									      	</span>
 									      	<p><a href="#">Ver mas</a></p>
 									    </div>
 									    <div class="card-reveal">
-									      	<span class="card-title grey-text text-darken-4"><h5>Platzi, formación para el mundo digital</h5><i class="material-icons right">close</i></span>
+									      	<span class="card-title grey-text text-darken-4"><h5>Platzi, formación para el mundo digital</h5><i class="icon-cross right"></i></span>
 									      	<p>Platzi es una startup atípica. Se mire como se mire, se sale de la norma. Su sede principal está en San Francisco, pero la que cuenta con más empleados se encuentra en Bogotá. Además, tiene otra oficina en México.<br> Sus fundadores, Christian Van der Henst y John Freddy Vega, nacieron en Guatemala y Colombia, respectivamente, pero viven en Estados Unidos. Se dedican a la enseñanza de habilidades informáticas, pero todo el contenido es en español. Adictos a las redes sociales, han conseguido generar una comunidad de alumnos que siguen las clases en directo con el entusiasmo con que se sigue un festival.</p>
-									      	<p><a href="#">Ver mas</a></p>
+									      	<p><a href="#">Ver artículo completo</a></p>
 									    </div>
 									</div>
 								</article>
@@ -324,16 +339,16 @@
 									      	<span class="card-title activator grey-text text-darken-4">
 									      		<div class="contentTituloArticle">
 									      			<h6>Ya nadie quiere un iPhone 6s</h6>
-									      			<p>Los rumores se centran más en la llegada del iPhone 7, que se espera para el año que viene.</p>									
+									      			<p>Los rumores se centran más en la llegada del iPhone 7, que se espera para el año que viene.</p>			<div class="divider"></div>
 									      		</div>
-									      		<i class="material-icons right">keyboard_arrow_up</i>
+									      		<i class="icon-arrow-down-right2 right"></i>
 									      	</span>
 									      	<p><a href="#">Ver mas</a></p>
 									    </div>
 									    <div class="card-reveal">
-									      	<span class="card-title grey-text text-darken-4"><h5>Ya nadie quiere un iPhone 6s</h5><i class="material-icons right">close</i></span>
+									      	<span class="card-title grey-text text-darken-4"><h5>Ya nadie quiere un iPhone 6s</h5><i class="icon-cross right"></i></span>
 									      	<p>Apple ha dejado de crecer por primera vez desde el año 2003, según sus resultados trimestrales, presentados hace unas semanas, en los que se dejaba patente un descenso del 22% en sus beneficios. "Nuestro equipo lo ha hecho realmente bien este trimestre pero nos enfrentamos a condiciones macroeconómicas únicas y muy difíciles de sortear", apuntó entonces Tim Cook, presidente de la compañía.Ahora, el portal asiático de finanzas Nikkei augura otro desplome para el próximo trimestre, precisamente debido a los rumores de llegada de un iPhone 7.</p>
-									      	<p><a href="#">Ver mas</a></p>
+									      	<p><a href="#">Ver artículo completo</a></p>
 									    </div>
 									</div>
 								</article>
@@ -349,17 +364,18 @@
 									      		<div class="contentTituloArticle">
 									      			<h6>La NASA anuncia el mayor descubrimiento de exoplanetas</h6>
 									      			<p>Han sido encontrados fuera del Sistema Solar gracias a los equipos del telescopio espacial Kepler.</p>
+									      			<div class="divider"></div>
 									      		</div>
-									      		<i class="material-icons right">keyboard_arrow_up</i>
+									      		<i class="icon-arrow-down-right2 right"></i>
 									      	</span>
 									      	<p><a href="#">Ver mas</a></p>
 									    </div>
 									    <div class="card-reveal">
-									      	<span class="card-title grey-text text-darken-4"><h5>La NASA anuncia el mayor descubrimiento de exoplanetas</h5><i class="material-icons right">close</i></span>
+									      	<span class="card-title grey-text text-darken-4"><h5>La NASA anuncia el mayor descubrimiento de exoplanetas</h5><i class="icon-cross right"></i></span>
 									      	<p>Los responsables del telescopio espacial Kepler, el mayor cazador de planetas fuera del Sistema Solar, han anunciado el descubrimiento de 1.284 nuevos exoplanetas, lo que dobla de una tacada el número de estos cuerpos que se conocía hasta la fecha.
 
 											“Este anuncio duplica el número de planetas confirmados por el Kepler", ha dicho Ellen Stofan, científica jefe de la NASA durante una rueda de prensa celebrada hoy. “Esto nos da esperanzas de que en algún lugar ahí afuera, en una estrella muy similar a la nuestra, podamos descubrir otra Tierra”, ha añadido.</p>
-											<p><a href="#">Ver mas</a></p>
+											<p><a href="#">Ver artículo completo</a></p>
 									    </div>
 									</div>
 								</article>
@@ -375,96 +391,42 @@
 									      		<div class="contentTituloArticle">
 									      			<h6>Pfizer Prohibe el uso de sus farmacos en EEUU</h6>
 									      			<p>El gigante farmacéutico Pfizer anunció este viernes restricciones a la venta de algunos de sus productos para evitar su uso en inyecciones letales.</p>
+									      			<div class="divider"></div>
 									      		</div>
-									      		<i class="material-icons right">keyboard_arrow_up</i>
+									      		<i class="icon-arrow-down-right2 right"></i>
 									      	</span>
 									      	<p><a href="#">Ver mas</a></p>
 									    </div>
 									    <div class="card-reveal">
-									      	<span class="card-title grey-text text-darken-4"><h5>Pfizer Prohibe el uso de sus farmacos en EEUU</h5><i class="material-icons right">close</i></span>
+									      	<span class="card-title grey-text text-darken-4"><h5>Pfizer Prohibe el uso de sus farmacos en EEUU</h5><i class="icon-cross right"></i></span>
 									      	<p>El gigante farmacéutico Pfizer anunció este viernes restricciones a la venta de algunos de sus productos para evitar su uso en inyecciones letales a presos condenados a muerte en Estados Unidos.<br>"Estamos restringiendo la distribución de determinados productos que han formado parte de los protocolos de ejecución de determinados estados. Pfizer se opone firmemente al uso de estos productos en inyecciones letales", expresó la compañía en un comunicado.</p>
-									      	<p><a href="#">Ver mas</a></p>
+									      	<p><a href="#">Ver artículo completo
+									      	</a></p>
 									    </div>
 									</div>
 								</article>
 							</div>
 						</div>
 			      	</li>
-			    </ul>
-
-			    <ul class="collection hoverable">
-			      	<li class="collection-item deep-orange lighten-1"><i class="small material-icons icon-white">sentiment_neutral</i> <h5 class="h5-articles">Rostros de la crisis</h5></li>
-			      	<li class="collection-item">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<div class="row">
-    <div class="col s10">
-      <ul class="tabs cyan">
-        <li class="tab col s3"><a href="#test1">Test 1</a></li>
-        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-        <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
-        <li class="tab col s3"><a href="#test4">Test 4</a></li>
-      </ul>
-    </div>
-    <div id="test1" class="col s12">Test 1</div>
-    <div id="test2" class="col s12">Test 2</div>
-    <div id="test3" class="col s12">Test 3</div>
-    <div id="test4" class="col s12">Test 4</div>
-  </div>
-			      	</li>
-			    </ul>
-
-			    <ul class="collection hoverable">
-			      	<li class="collection-item  teal darken-2"><i class="small material-icons icon-white">assignment</i> <h5 class="h5-articles">Artículos de opinion</h5></li>
-			      	<li class="collection-item">
-			      		    <ul class="collapsible" data-collapsible="accordion">
-								<li>
-								    <div class="collapsible-header">
-								    	<i class="material-icons">filter_drama</i>First
-								    </div>
-								    <div class="collapsible-body">
-								    	<p>Lorem ipsum dolor sit amet.</p>
-								    </div>
-								</li>
-								<li>
-								    <div class="collapsible-header">
-								    	<i class="material-icons">place</i>Second
-								    </div>
-								    <div class="collapsible-body">
-								    	<p>Lorem ipsum dolor sit amet.</p>
-								    </div>
-								</li>
-								<li>
-								    <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-								    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-								</li>
-							</ul>
-        
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-			      	</li>
-			    </ul>
-
+			    </ul>			   
 			</div>
 
 			<aside class= "col s12 m12 l3 aside-p">	
 				<wigdet class="col s12 m6 l12 container-wigdet z-depth-1 hoverable">
-					<div class="panel-header cyan">
-						<h6 class="text-white font-s-19">Desde Twitter</h6>
+					<div class="panel-header cyan">					
+						<h6 class="text-white font-s-19"><i class="icon icon-twitter"></i> Desde Twitter </h6>
 					</div>
 					     <a class="twitter-timeline" href="https://twitter.com/danii_moros" data-widget-id="730225015749283840">Tweets por el @danii_moros.</a>
 						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</wigdet>
 				<wigdet class="col s12 m6 l12 container-wigdet z-depth-1 hoverable">
 					<div class="panel-header red darken-4">
-						<h6 class="text-white font-s-19">Videos de Youtube</h6>
+						<h6 class="text-white font-s-19"><i class="icon icon-play"></i> Videos de Youtube</h6>
 					</div>
 					<ul class="collapsible" data-collapsible="accordion">
 						<li>
 						    <div class="collapsible-header grey darken-3 text-white">
-								<i class="material-icons icon-white">sentiment_very_satisfied</i>Humor					    	
+								<i class="icon icon-happy"></i>Humor					    	
 						    </div>
 						    <div class="collapsible-body">
 						    	<div class="video-container">						    		
@@ -483,7 +445,7 @@
 						</li>
 						<li>
 						    <div class="collapsible-header grey darken-3 text-white">
-						    	<i class="material-icons icon-white">language</i>Documentales
+						    	<i class="icon icon-file-text"></i>Documentales
 						    </div>
 						    <div class="collapsible-body">
 						    	<div class="video-container">
@@ -502,7 +464,7 @@
 						</li>
 						<li>
 						    <div class="collapsible-header grey darken-3 text-white">
-						    	<i class="material-icons icon-white">directions_bike</i>Deportes
+						    	<i class="icon icon-dribbble"></i>Deportes
 						    </div>
 						    <div class="collapsible-body">
 						    	<div class="video-container">
@@ -521,7 +483,7 @@
 						</li>
 						<li>
 						<div class="collapsible-header grey darken-3 text-white">
-						    	<i class="material-icons icon-white">people</i>Política
+						    	<i class="icon icon-user-tie"></i>Política
 						    </div>
 						    <div class="collapsible-body">
 						    	<div class="video-container">
@@ -541,7 +503,7 @@
 					</ul>		
 					    
 				</wigdet>
-				<wigdet class="col s12 m6 l12 z-depth-1 hoverable">
+				<!-- <wigdet class="col s12 m6 l12 z-depth-1 hoverable">
 					<div class="panel-header green accent-4">
 						<h6 class="text-black font-s-19">Sitios Recomendados</h6>
 					</div>
@@ -581,7 +543,7 @@
       					</a>
       					<h6>La Patilla</h6>
 					</div>		    
-				</wigdet>
+				</wigdet> -->
 			</aside>
 		</div>
 	</section>
